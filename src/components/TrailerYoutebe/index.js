@@ -23,7 +23,7 @@ const TrailerYoutebe = ({ trailerUrl }) => {
 
         return (
             <div className="youtube">
-                <YouTube videoId={trailerUrl} opts={opts} />
+                <YouTube videoId="VjHMmF7HsoU" opts={opts} />
 
             </div>
         )

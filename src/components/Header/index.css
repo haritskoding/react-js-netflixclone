@@ -30,3 +30,13 @@
   background-color: #111;
   height: 30px;
 }
+
+@media only screen and (max-width: 700px) {
+  .header__logo {
+    width: 70px;
+  }
+
+  .header__userIcon {
+    width: 35px;
+  }
+}

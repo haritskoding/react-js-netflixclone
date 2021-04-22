@@ -3,7 +3,7 @@
   font-weight: bold;
   font-size: 1.08rem;
   color: #fff;
-  cursor:pointer;
+  cursor: pointer;
 }
 
 .row__posters {
@@ -36,4 +36,27 @@
 
 .rowPosterLarge {
   max-height: 250px;
+}
+
+@media only screen and (max-width: 700px) {
+  .row {
+    margin-left: 5px;
+    font-weight: bold;
+    font-size: 0.9rem;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .row__poster {
+    object-fit: contain;
+    width: 98%;
+    max-height: 80px;
+    margin-right: 10px;
+    transition: transform 450ms;
+    border-radius: 0.7vw;
+  }
+
+  .rowPosterLarge {
+    max-height: 190px;
+  }
 }
